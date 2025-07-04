@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.logo-text .highlight, .logo-text .dot {
+  color: #f44336;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.hero {
+  text-align: center;
+  padding: 160px 10% 100px;
+}
+.gradient-text {
+  background: linear-gradient(to right, #f85f73, #0324c9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.hero-buttons a {
+  margin: 0 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-light {
+  background: #6a82fb;
+  color: white;
+}
+.btn-dark {
+  background: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+}
+.partners-section {
+  background: #0f0f0f;
+  padding: 80px 5%;
+  text-align: center;
+}
+.partner-logo {
+  padding: 1rem 2rem;
+  background: rgba(255,255,255,0.05);
+  margin: 1rem;
+  border-radius: 10px;
+}
